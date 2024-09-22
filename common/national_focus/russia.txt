@@ -1,20 +1,13 @@
 focus_tree = {
-	id = australian_focus
+	id = russian_focus
 	
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = AST
-			has_dlc = "Together for Victory"
+			tag = SOV
 		}
-
-		#modifier = {
-		#	add = 10
-		#	original_tag = AST
-		#	has_dlc = "Together for Victory"
-		#}
 	}
 	
 	default = no
@@ -22,32 +15,22 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 
 	focus = {
-		id = AST_the_threat_against_the_people
+		id = SOV_the_kharkiv_files
 		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = AST_workers_paradise }
 		x = 3
 		y = 5
 		relative_position_id = AST_empower_the_workers
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
-		}
-
+		
 		available = {
 			NOT = { is_in_faction_with = JAP }
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
-		
 		bypass = {
-
 		}
-
+		
+		cost = 10
+		prerequisite = { focus = AST_workers_paradise }
+		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -57,6 +40,12 @@ focus_tree = {
 				target = JAP
 				type = puppet_wargoal_focus
 				expire = 0 
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
 			}
 		}
 	}
