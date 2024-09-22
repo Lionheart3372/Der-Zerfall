@@ -1,0 +1,18 @@
+
+state={
+	id=973
+	name="STATE_973"
+	
+	history={
+		owner = SFK
+		add_core_of = SFK
+
+	}
+	provinces={
+		6555 6581 9545 9557 11529 
+	}
+	manpower=254970
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

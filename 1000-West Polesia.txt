@@ -1,0 +1,15 @@
+state={
+	id=1000
+	name="STATE_1000"
+	history={
+	owner=SOV
+	add_core_of=SOV
+}
+	provinces={
+		535 560 3496 3556 3759 6280 6579 9304 11285 11341 11503 
+	}
+	manpower=769000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

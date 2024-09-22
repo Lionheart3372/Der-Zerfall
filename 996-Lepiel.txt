@@ -1,0 +1,19 @@
+
+state={
+	id=996
+	name="STATE_996"
+
+	history={
+		owner = SOV
+		add_core_of = BLR
+
+	}
+
+	provinces={
+		3331 6220 6371 9241 
+	}
+	manpower=327769
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

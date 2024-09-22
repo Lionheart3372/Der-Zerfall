@@ -1,0 +1,15 @@
+state={
+	id=1003
+	name="STATE_1003"
+	history={
+owner=BSR
+add_core_of=BSR
+}
+	provinces={
+		3705 6693 9652 11620 11653 
+	}
+	manpower=165084
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

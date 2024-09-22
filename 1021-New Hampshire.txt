@@ -1,0 +1,14 @@
+state={
+	id=1021
+	name="STATE_1021"
+	history={
+	owner=USA
+	add_core_of=USA
+}
+	provinces={
+		733 3712 3715 10481 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

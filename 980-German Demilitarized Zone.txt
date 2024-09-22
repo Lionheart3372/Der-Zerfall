@@ -1,0 +1,20 @@
+state={
+	id=980
+	name="STATE_980"
+	
+	history={
+   owner=RDG
+   add_core_of = BNN
+   
+   add_core_of = RDG
+   
+   set_demilitarized_zone = yes
+   }
+	provinces={
+		3500 
+	}
+	manpower=1906
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}
