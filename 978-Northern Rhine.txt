@@ -1,0 +1,16 @@
+state={
+	id=978
+	name="STATE_978"
+	
+	history={
+   owner=BNN
+   add_core_of = BNN
+   }
+	provinces={
+		495 529 3398 3512 6469 6570 9482 
+	}
+	manpower=54798
+	buildings_max_level_factor=1.000'
+	state_category=metropolis
+	local_supplies=0.000
+}
