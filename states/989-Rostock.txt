@@ -1,0 +1,28 @@
+state={
+	id=989
+	name="STATE_989"
+	
+	history={
+   owner=ROS
+   add_core_of = ROS
+   victory_points = {
+			11305 3 
+		}
+   	victory_points = {
+			321 5 
+		}
+		buildings={
+		321 = {
+				naval_base = 6
+
+			}
+		}
+   }
+   provinces={
+		321 9388 11305 13257 
+	}
+	manpower=278095
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

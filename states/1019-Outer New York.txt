@@ -1,0 +1,14 @@
+state={
+	id=1019
+	name="STATE_1019"
+	history={
+	owner=USA
+	add_core_of=USA
+}
+	provinces={
+		598 734 3602 3733 3747 6707 6778 6795 6916 9754 11654 11662 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

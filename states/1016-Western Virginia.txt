@@ -1,0 +1,14 @@
+state={
+	id=1016
+	name="STATE_1016"
+	history={
+	owner=USA
+	add_core_of=USA
+}
+	provinces={
+		7558 9779 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
