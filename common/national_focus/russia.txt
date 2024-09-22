@@ -19,34 +19,50 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		x = 3
 		y = 5
-		relative_position_id = AST_empower_the_workers
+		#relative_position_id = AST_empower_the_workers
 		
 		available = {
 			NOT = { is_in_faction_with = JAP }
-			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
 		bypass = {
 		}
 		
-		cost = 10
-		prerequisite = { focus = AST_workers_paradise }
+		cost = 2
+		#prerequisite = { focus = AST_workers_paradise }
 		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-			create_wargoal = {
-				target = JAP
-				type = puppet_wargoal_focus
-				expire = 0 
-
+			add_political_power = 25
+		}
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 	}
+		focus = {
+		id = SOV_finish_the_war
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 5
+		relative_position_id = SOV_the_kharkiv_files
+		
+		available = {
+			NOT = { is_in_faction_with = JAP }
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = SOV_the_kharkiv_files }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 25
+		}
+		ai_will_do = {
+		}
 }		
